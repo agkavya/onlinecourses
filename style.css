@@ -1,0 +1,48 @@
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+body{
+    text-align: justify;
+    padding: 20px;
+}
+.a{
+    text-align: center;
+    color:blueviolet;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 480px)  {
+    body  {
+          background-color: white;
+      }
+  }
+  @media(min-width:481px) and (max-width:1200px){
+   body{
+      background-color: white;
+   }
+  }
+  @media (min-width:1201px) and(max-width:1600px){
+      body{
+          background-color:white;
+      }
+  }
+  @media (min-width:1601px){
+      body{
+          background-color: white;
+      }
+  }
+ 
